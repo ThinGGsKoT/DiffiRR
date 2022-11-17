@@ -1,0 +1,6 @@
+from sympy import*
+import numpy as np
+x, y, T, C = symbols("x y T C")
+y = (2*x**2)*cos(6*x)
+dydx = diff(y, x)
+dydx
